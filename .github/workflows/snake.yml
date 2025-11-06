@@ -1,33 +1,43 @@
-name: Generate Snake Animation
+name: Generate Snake Contribution
+
+# This workflow runs on a schedule and when manually triggered.
 on:
+  # Runs twice a day (at 00:00 UTC and 12:00 UTC) to keep the animation fresh.
   schedule:
-    - cron: "0 */12 * * *" # Runs twice a day
+    - cron: "0 0,12 * * *"
+  # Allows you to manually trigger the workflow from the 'Actions' tab.
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Generate snake animation
-        uses: Platane/snk@v3
+      # Step 1: Checkout the code
+      - uses: actions/checkout@v4
+      
+      # Step 2: Generate the snake animation SVG
+      - uses: Platane/snk@v3
         with:
-          github_user_name: "Atharva2093"
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Push updated snake graph
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+          # Your GitHub username is used to fetch the contribution data.
+          github_user_name: Atharva2093
+          
+          # The branch where the generated SVG files will be stored.
+          # The Readme code uses 'output' (raw.githubusercontent.com/.../output/...)
+          output: dist/github-contribution-grid-snake-dark.svg
+          
+          # Ensure the snake is generated in dark mode to match your profile theme (tokyonight).
+          palette: github-dark
+          
+        env:
+          # This token is automatically provided by GitHub and is necessary 
+          # for the action to fetch your contribution data.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      # Step 3: Commit and push the generated SVG to the 'output' branch
+      - name: Push to Repository
+        uses: crazy-max/ghaction-github-pages@v4
         with:
-          target_branch: output
-          build_dir: dist
+          target_branch: output # This is the destination branch name.
+          build_dir: dist # This is the folder containing the generated SVG.
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

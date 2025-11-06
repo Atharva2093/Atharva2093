@@ -21,7 +21,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git fetch origin
-          if ! git ls-remote --heads origin output | grep output; then
+          if ! git ls-remote --heads origin output | grep -q 'refs/heads/output$'; then
             echo "Output branch doesn't exist, creating it..."
             git checkout --orphan output
             git rm -rf .

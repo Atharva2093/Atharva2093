@@ -32,6 +32,13 @@
 </p>
 
 </div>
+<div align="center">
+
+<a href="https://www.holopin.io/@atharva2093" target="_blank" rel="noopener noreferrer">
+  <img src="https://holopin.me/atharva2093" width="850" alt="Holopin Badges Board"/>
+</a>
+
+</div>
 
 ---
 

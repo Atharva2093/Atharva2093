@@ -45,14 +45,6 @@
 
 <div align="center">
 
-## 🌐 Connect With Me
-
-<div align="center">
-
-## 🌐 Connect With Me
-
-<p align="center">
-
 • <a href="https://v0-atharva-jondhale-portfolio.vercel.app/" target="_blank"
 style="padding:12px 26px;background:#111827;color:#FF76CE;border-radius:25px;text-decoration:none;font-weight:700;font-size:20px;margin:10px;display:inline-block;">
   Portfolio

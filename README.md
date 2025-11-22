@@ -32,12 +32,11 @@
 </p>
 
 </div>
-<div align="center">
 
+<div align="center">
 <a href="https://www.holopin.io/@atharva2093" target="_blank" rel="noopener noreferrer">
   <img src="https://holopin.me/atharva2093" width="850" alt="Holopin Badges Board"/>
 </a>
-
 </div>
 
 ---
@@ -48,46 +47,50 @@
 
 ## 🌐 Connect With Me
 
-<p align="center" style="font-size: 18px;">
+<div align="center">
 
-<a href="https://v0-atharva-jondhale-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer"
-style="margin: 8px; padding: 10px 18px; background:#111827; color:#FF76CE; border-radius:20px; text-decoration:none; font-weight:600;">
-💼 Portfolio
-</a>
+## 🌐 Connect With Me
 
-<a href="https://linkedin.com/in/atharvajondhale7" target="_blank" rel="noopener noreferrer"
-style="margin: 8px; padding: 10px 18px; background:#111827; color:#94FFD8; border-radius:20px; text-decoration:none; font-weight:600;">
-🔗 LinkedIn
-</a>
+<p align="center">
 
-<a href="https://instagram.com/atharva_j2093" target="_blank" rel="noopener noreferrer"
-style="margin: 8px; padding: 10px 18px; background:#111827; color:#FFD1DC; border-radius:20px; text-decoration:none; font-weight:600;">
-📸 Instagram
-</a>
+• <a href="https://v0-atharva-jondhale-portfolio.vercel.app/" target="_blank"
+style="padding:12px 26px;background:#111827;color:#FF76CE;border-radius:25px;text-decoration:none;font-weight:700;font-size:20px;margin:10px;display:inline-block;">
+  Portfolio
+</a><br>
 
-<a href="https://x.com/atharva_j2093" target="_blank" rel="noopener noreferrer"
-style="margin: 8px; padding: 10px 18px; background:#111827; color:#A3D8FF; border-radius:20px; text-decoration:none; font-weight:600;">
-🐦 X (Twitter)
-</a>
+• <a href="https://linkedin.com/in/atharvajondhale7" target="_blank"
+style="padding:12px 26px;background:#111827;color:#94FFD8;border-radius:25px;text-decoration:none;font-weight:700;font-size:20px;margin:10px;display:inline-block;">
+  LinkedIn
+</a><br>
 
-<a href="mailto:atharvajondhale7@gmail.com" target="_blank" rel="noopener noreferrer"
-style="margin: 8px; padding: 10px 18px; background:#111827; color:#FFFACD; border-radius:20px; text-decoration:none; font-weight:600;">
-📨 Gmail
-</a>
+• <a href="https://instagram.com/atharva_j2093" target="_blank"
+style="padding:12px 26px;background:#111827;color:#FFD1DC;border-radius:25px;text-decoration:none;font-weight:700;font-size:20px;margin:10px;display:inline-block;">
+  Instagram
+</a><br>
 
-<a href="https://discord.com/users/atharvajondhale_09256" target="_blank" rel="noopener noreferrer"
-style="margin: 8px; padding: 10px 18px; background:#111827; color:#7289DA; border-radius:20px; text-decoration:none; font-weight:600;">
-💬 Discord
-</a>
+• <a href="https://x.com/atharva_j2093" target="_blank"
+style="padding:12px 26px;background:#111827;color:#A3D8FF;border-radius:25px;text-decoration:none;font-weight:700;font-size:20px;margin:10px;display:inline-block;">
+  X
+</a><br>
 
-<a href="https://linktr.ee/atharva_jondhale" target="_blank" rel="noopener noreferrer"
-style="margin: 8px; padding: 10px 18px; background:#111827; color:#98FB98; border-radius:20px; text-decoration:none; font-weight:600;">
-🌱 Linktree
-</a>
+• <a href="mailto:atharvajondhale7@gmail.com" target="_blank"
+style="padding:12px 26px;background:#111827;color:#FFFACD;border-radius:25px;text-decoration:none;font-weight:700;font-size:20px;margin:10px;display:inline-block;">
+  Gmail
+</a><br>
 
-<a href="https://devpost.com/atharvajondhale7?ref_=user-portfolio" target="_blank" rel="noopener noreferrer"
-style="margin: 8px; padding: 10px 18px; background:#111827; color:#87CEFA; border-radius:20px; text-decoration:none; font-weight:600;">
-🚀 Devpost
+• <a href="https://discord.com/users/atharvajondhale_09256" target="_blank"
+style="padding:12px 26px;background:#111827;color:#7289DA;border-radius:25px;text-decoration:none;font-weight:700;font-size:20px;margin:10px;display:inline-block;">
+  Discord
+</a><br>
+
+• <a href="https://linktr.ee/atharva_jondhale" target="_blank"
+style="padding:12px 26px;background:#111827;color:#98FB98;border-radius:25px;text-decoration:none;font-weight:700;font-size:20px;margin:10px;display:inline-block;">
+  Linktree
+</a><br>
+
+• <a href="https://devpost.com/atharvajondhale7" target="_blank"
+style="padding:12px 26px;background:#111827;color:#87CEFA;border-radius:25px;text-decoration:none;font-weight:700;font-size:20px;margin:10px;display:inline-block;">
+  Devpost
 </a>
 
 </p>
@@ -98,6 +101,7 @@ style="margin: 8px; padding: 10px 18px; background:#111827; color:#87CEFA; borde
 ---
 
 # 💻 **Tech Arsenal**
+
 <div align="center">
 
 ### 🎨 Frontend
